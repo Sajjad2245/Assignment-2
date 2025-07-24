@@ -51,4 +51,5 @@ width: 540px; height: 520px;}
     } .im>img,.all,.log{width: 100%;} 
     .card{display: grid;
     grid-template-columns: repeat(2 , 2fr); gap: 10px;} .pro,.pra{text-align: center; margin-left: auto;} .pos{flex-direction: column;} .img-1{margin-left: 0;}
+    .ban{visibility: hidden;}
 }
