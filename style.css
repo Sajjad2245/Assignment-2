@@ -21,8 +21,15 @@ height: 461; margin: 0 150px;
 display: flex; 
 flex-wrap: wrap;
 align-items: end;} .im>img{width: 100%;}
-
-
+.int{text-align: center;
+margin-top: 120px;}
+.btn>a{text-decoration: none; color: aliceblue;}
+.btn{background-color: #E95A08;
+ width: 270px; height: 40px; border: none;}
+.pro{max-width: 100%;
+text-align: center; margin-bottom: 20px;}
+.card{display: grid;
+grid-template-columns: repeat(4 , 2fr); margin-top: 50px;}
 
 
 
@@ -34,4 +41,6 @@ align-items: end;} .im>img{width: 100%;}
  align-items: center;}
     .first{flex-wrap: wrap-reverse ; margin: 16px;
     } .im>img,.all,.log{width: 100%;} 
+    .card{display: grid;
+    grid-template-columns: repeat(2 , 2fr); gap: 10px;} .pro{text-align: center; margin-left: auto;}
 }
