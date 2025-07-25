@@ -1,5 +1,5 @@
 
-
+.ali{align-items: center;}
 .black{color: black;}
 .grey{color: rgb(91, 103, 117);}
 .pop{display: flex;
@@ -38,6 +38,14 @@ height: 100%; display: block;}
 .pos{display: flex;
 flex-wrap: wrap; ; gap: 30px;} .pra{
 width: 540px; height: 520px;}
+.pg{margin-top: 100px;
+margin-bottom: 100px;}
+.pn-1{background-image: url('assets/deal-bloom.png'); width: 367px; height: 206px; text-align: center;  color: aliceblue; border-radius: 15px;} .pn-1>p>a{color: aliceblue;}
+.pn-1>p{align-items: center;}
+.pn-2{background-image: url('assets/deal-ana.png'); width: 367px; height: 197px; text-align: center;  color: aliceblue; border-radius: 15px;} .pn-2>a{color: aliceblue;}
+.pn-3{max-width: 100; background-image: url('assets/deal-zabo.png'); text-align: center;  color: aliceblue; border-radius: 15px; grid-row: 1 / span 2; } .pn-3>a{color: aliceblue;}
+.pn{display: grid;
+grid-template-columns: repeat(2 , 2fr); gap: 15px; margin-left: 140px;}
 
 
 
@@ -50,6 +58,7 @@ width: 540px; height: 520px;}
     .first{flex-wrap: wrap-reverse ; margin: 16px;
     } .im>img,.all,.log{width: 100%;} 
     .card{display: grid;
-    grid-template-columns: repeat(2 , 2fr); gap: 10px;} .pro,.pra{text-align: center; margin-left: auto;} .pos{flex-direction: column;} .img-1{margin-left: 0;}
+    grid-template-columns: repeat(2 , 2fr); gap: 10px;} .pro,.pra,.pg>.bol,.grey{text-align: center; margin-left: auto;} .pos{flex-direction: column;} .img-1{margin-left: 0;}
     .ban{visibility: hidden;}
+    .pn{display: grid; grid-template-columns: repeat(1 , 1fr); margin-left: 10px;} 
 }
